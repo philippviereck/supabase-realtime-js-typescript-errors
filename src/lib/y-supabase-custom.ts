@@ -1,5 +1,5 @@
 // This file is a modified version of the original y-supabase package (https://github.com/AlexDunmow/y-supabase)
-import * as Y from 'yjs'
+import Y from 'yjs'
 import * as awarenessProtocol from 'y-protocols/awareness.js'
 import { REALTIME_LISTEN_TYPES } from '@supabase/realtime-js/src/RealtimeChannel'
 import type { RealtimeChannel, SupabaseClient } from '@supabase/supabase-js'

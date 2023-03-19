@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { browser } from '$app/environment'
 	import { onDestroy } from 'svelte'
-	import Y from 'yjs'
 	import { supabaseClient } from '$lib/supabaseClient'
 	import SupabaseProvider from '$lib/y-supabase-custom'
+	import Y from 'yjs'
 
 	const ydoc = new Y.Doc()
 
