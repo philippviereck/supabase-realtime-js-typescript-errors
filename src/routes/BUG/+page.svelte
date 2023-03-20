@@ -3,7 +3,7 @@
 	import { onDestroy } from 'svelte'
 	import { supabaseClient } from '$lib/supabaseClient'
 	import SupabaseProvider from '$lib/y-supabase-custom'
-	import Y from 'yjs'
+	import * as Y from 'yjs'
 
 	const ydoc = new Y.Doc()
 
